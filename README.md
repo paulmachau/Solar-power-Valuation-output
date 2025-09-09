@@ -67,22 +67,42 @@ Payback Period: ~7 years
 ROI: ~350%
 
 # Conclusion:
-The comprehensive analysis and modeling conducted in this project shed light on the feasibility and potential benefits of integrating solar batteries into the existing solar panel system. By thoroughly processing the provided data, we were able to project energy consumption, solar generation, and electricity purchase patterns. This information served as the foundation for exploring two distinct scenarios with varying electricity price increase assumptions.
+The comprehensive analysis and modeling conducted in this project shed light on the feasibility and potential benefits of integrating solar batteries into the existing solar panel system. 
+
+**Technical Perspective**:
+The solar system generates surplus electricity during the day, much of which would otherwise be wasted. The battery allows this excess power to be stored and used in the evening or during cloudy periods, significantly reducing reliance on grid electricity.
+
+**Financial Perspective**:
+
+Under Scenario 1 (moderate tariff growth), the project achieves an NPV of USD 35,800.02, an IRR of 15.43%, and a payback period of 8 years.
+
+Under Scenario 2 (higher tariff growth), the project delivers an NPV of USD 42,031.80, an IRR of 16.83%, and a payback period of 7 years.
+
+Both scenarios exceed the 6% discount rate and deliver an ROI above 300%, proving the project generates substantial long-term value.
 
 # Recommendations:
-Based on the results and insights gathered from the project, the following recommendations can be made:
+**Proceed with Battery Integration**
 
-* Scenario Comparison: 
-Both scenarios were evaluated for their annual savings, Net Present Value (NPV), and Internal Rate of Return (IRR). Scenario 2 demonstrated slightly higher annual savings, a higher NPV, and a marginally better IRR. Therefore, stakeholders should consider Scenario 2 as the more financially attractive option.
+Implement battery storage to capture excess solar generation and reduce grid purchases.
 
-* Long-Term Perspective:
-The projections for 20 years indicated that the benefits of integrating solar batteries extend into the future. This makes the investment in solar batteries a sound long-term decision, especially considering rising electricity prices.
+This will improve energy independence and resilience against rising electricity tariffs.
 
-* Risk Mitigation:
-Stakeholders should be aware of the assumptions made in the scenarios, particularly regarding electricity price increases. As electricity prices are subject to market dynamics, a sensitivity analysis could provide insights into potential variations in the results.
+**Prioritize Scenario 2 in Planning**
 
-* Flexibility and Adaptability:
-  As technology and energy markets evolve, it's recommended that stakeholders continuously monitor the developments in the renewable energy sector. This will ensure that the chosen solution remains aligned with industry trends and future energy needs.
+Given global and local trends of rising energy prices, Scenario 2 is more realistic and should guide investment decisions.
 
-* Monitoring and Optimization: 
-Implementing the chosen scenario should be accompanied by real-time monitoring of system performance. Regular optimization and maintenance of the solar battery system can ensure that the projected benefits are realized and maximized.
+**Plan for Battery Replacement and O&M**
+
+Batteries typically require replacement after 10–12 years depending on usage and degradation.
+
+Allocate a sinking fund for replacement and regular maintenance to sustain system efficiency.
+
+**Conduct Sensitivity Analysis**
+
+Perform additional tests under different assumptions (e.g., slower tariff growth, higher capital cost, or reduced solar output).
+
+This ensures resilience and helps anticipate potential risks.
+
+**Adopt Real-Time Monitoring Systems**
+
+Use smart energy management tools to track battery performance, charging/discharging cycles, and grid usage.
