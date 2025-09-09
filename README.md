@@ -16,6 +16,14 @@ The main challenge addressed by this project is to determine whether installing 
 # Objective:
 The objective of this project is to provide businesses and individuals with actionable insights into the financial viability of adopting battery systems to complement their solar energy generation efforts. By quantifying potential energy savings and considering different electricity price scenarios, stakeholders can make informed decisions about the adoption of sustainable energy solutions while contributing to environmental conservation and cost reduction.
 
+# Data Processing.
+This project will include 1 dataset.
+* The Raw Data set. Consist of 8761 Rows and 3 columns
+* Hours  - Showing the hourly solar generation and Electricity usage in 2020
+* Solar_Generation_Kwh - Shows the solar generated on hourly basis in Kwh
+* Electricity_usage_kwh - shows the power usage over the whole year 2020
+<img width="987" height="525" alt="Screenshot 2025-09-09 2 51 12 PM" src="https://github.com/user-attachments/assets/29a4fd28-9d43-4b76-80c0-fe5782ed4d20" />
+
 
 # Methodology
 * Data Collection: Gather hourly solar generation, electricity usage, and electricity purchase data for the year 2020.
@@ -25,54 +33,38 @@ The objective of this project is to provide businesses and individuals with acti
 * Energy Purchase Calculation: Calculate the electricity purchased from the provider based on solar generation, electricity usage, and battery charge levels.
 
 * Excess Solar Electricity Calculation: Calculate excess solar electricity over electricity used, considering the battery charge level cap.
+* <img width="938" height="494" alt="Screenshot 2025-09-09 3 16 51 PM" src="https://github.com/user-attachments/assets/9555341d-e347-4743-92a9-c4f618e61008" />
+
 
 * Monthly Data Analysis: Summarize monthly solar generation, electricity usage, and electricity purchased with and without the battery.
+<img width="938" height="381" alt="Screenshot 2025-09-09 3 11 50 PM" src="https://github.com/user-attachments/assets/93fed176-78df-477c-a4d9-934d88f709f7" />
 
 * Scenario Analysis: Project annual savings for 20 years based on different electricity price increase scenarios.
 
-* NPV and IRR Calculation: Calculate NPV and IRR for both scenarios.
-
-* Visualization: Create visualizations for hourly, monthly, and annual energy metrics.
-
-# Data Processing.
-This project will include 1 dataset.
-* The Raw Data set. Consist of 8761 Rows and 3 columns
-* Hours  - Showing the hourly solar generation and Electricity usage in 2020
-* Solar_Generation_Kwh - Shows the solar generated on hourly basis in Kwh
-* Electricity_usage_kwh - shows the power usage over the whole year 2020
-
 # Modeling
-In the  project, the primary focus was on financial analysis and feasibility calculations rather than complex machine learning or statistical modeling. Therefore, traditional statistical or machine learning models were not used. Instead, the analysis involved calculations, projections, and financial metrics to assess the viability of integrating solar batteries.
+**Scenario 1: Moderate Electricity Tariff Growth**
 
-## The project utilized various calculations and methodologies to achieve its objectives, such as:
+Annual savings: from USD 1,957 (2022) → USD 4,124 (2041)
 
+NPV: USD 35,800.02
 
+IRR: 15.43%
 
-### Data Preprocessing and Checks:
+Payback Period: ~8 years
 
-* Ensured data completeness and correctness for analysis.
-  
-### Energy Calculations:
+ROI: ~300%
 
-* Calculated electricity purchase, excess solar electricity, and related metrics for each hour in 2020.
-  
-### Scenario Analysis:
-Projected annual savings for 20 years (2022-2041) under Scenario 1 and Scenario 2.
-* Scenario 1: Savings range from 1957.37 (2022) to 4123.89 (2041).
-* Scenario 2: Savings range from 1957.37 (2022) to 6465.98 (2041).
-  
-### Net Present Value (NPV) Calculation:
-Calculated NPV for both scenarios:
-* Scenario 1: Total NPV - 35800.02
-* Scenario 2: Total NPV - 42031.80
-  
-### Internal Rate of Return (IRR) Calculation:
-Calculated IRR for both scenarios:
-* Scenario 1: IRR - 0.1543
-* Scenario 2: IRR - 0.1683
-  
-### Data Visualization:
-* Created monthly charts showing solar generation, electricity usage, and electricity purchased for each scenario.
+**Scenario 2: Higher Electricity Tariff Growth**
+
+Annual savings: from USD 1,957 (2022) → USD 6,466 (2041)
+
+NPV: USD 42,031.80
+
+IRR: 16.83%
+
+Payback Period: ~7 years
+
+ROI: ~350%
 
 # Conclusion:
 The comprehensive analysis and modeling conducted in this project shed light on the feasibility and potential benefits of integrating solar batteries into the existing solar panel system. By thoroughly processing the provided data, we were able to project energy consumption, solar generation, and electricity purchase patterns. This information served as the foundation for exploring two distinct scenarios with varying electricity price increase assumptions.
