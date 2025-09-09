@@ -9,12 +9,14 @@ In a world where sustainable energy solutions are becoming increasingly importan
 
 The main challenge addressed by this project is to determine whether installing battery systems alongside solar panels is financially viable in the long term. The project seeks to answer questions such as:
 
-* What are the potential energy savings from using stored solar energy during non-sunny hours?
-* How do different electricity price increase scenarios impact the financial returns of the investment?
-* Can the initial cost of battery installation be justified by the expected energy savings over the years?
+What savings can be achieved by using stored solar instead of grid electricity?
+
+How do different electricity tariff escalation scenarios affect financial returns?
+
+Can the upfront battery cost be justified over a 20-year project life?
 
 # Objective:
-The objective of this project is to provide businesses and individuals with actionable insights into the financial viability of adopting battery systems to complement their solar energy generation efforts. By quantifying potential energy savings and considering different electricity price scenarios, stakeholders can make informed decisions about the adoption of sustainable energy solutions while contributing to environmental conservation and cost reduction.
+To provide stakeholders with data-driven insights into the financial feasibility of adding a battery system to existing solar panels. By quantifying savings under different tariff scenarios, this analysis supports informed decision-making on renewable energy investments.
 
 # Data Processing.
 This project will include 1 dataset.
